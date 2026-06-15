@@ -1,6 +1,6 @@
 {{
     config(
-        materalized='table',
+        materialized='table',
         schema= 'marts',
         tags=['dimensions', 'marts', 'customers']
     )

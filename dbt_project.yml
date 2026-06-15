@@ -18,7 +18,7 @@ models:
   dbt_food_delivery:
 
     staging:
-      +schema: staging        # ✅ ADD THIS
+      +schema: staging        
       +materialized: view
 
     intermediate:
